@@ -22,7 +22,7 @@ public class SpawnManager : MonoBehaviour
     void Update()
     {
 
-      //  Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
+      //Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
     }
 
 

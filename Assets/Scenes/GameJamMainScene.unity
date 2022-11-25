@@ -907,7 +907,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &646569540
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1172,7 +1172,7 @@ MonoBehaviour:
   - {fileID: 3109725806859905274, guid: eb58cb5726c50fd49a377d974a826340, type: 3}
   winText: {fileID: 1138920643}
   replayButton: {fileID: 646569539}
-  winNumber: 15
+  winNumber: 3
 --- !u!4 &811179100
 Transform:
   m_ObjectHideFlags: 0
@@ -1806,12 +1806,12 @@ GameObject:
   - component: {fileID: 1138920647}
   - component: {fileID: 1138920646}
   m_Layer: 5
-  m_Name: You Win
+  m_Name: YouWin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1138920644
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2095,7 +2095,7 @@ GameObject:
   - component: {fileID: 1237412706}
   - component: {fileID: 1237412705}
   m_Layer: 5
-  m_Name: Text (TMP)
+  m_Name: replay_button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

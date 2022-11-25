@@ -17,18 +17,24 @@ public class GameManager : MonoBehaviour
     public int winNumber = 2;
 
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        
+    }
     void Start()
     {
         jellyPieces = GameObject.FindGameObjectsWithTag("JellyPieces");
         winText.SetActive(false);
         replayButton.SetActive(false);
+      
     }
 
     // Update is called once per frame
     void Update()
     {
-        AddScore();
-
+        
+         AddScore();
     }
 
     public void AddScore()
@@ -36,11 +42,14 @@ public class GameManager : MonoBehaviour
         
         if (score >= winNumber)
         {
+            score = 0;
+
             Win();
             
         }
     }
 
+    
     public void Win()
     {
         winText.SetActive(true);
@@ -50,5 +59,6 @@ public class GameManager : MonoBehaviour
     public void Replay()
     {
         SceneManager.LoadScene("GameJamMainScene");
+        
     }
 }
