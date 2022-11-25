@@ -14,7 +14,7 @@ public class SpawnManager : MonoBehaviour
 
     void Start()
     {
-        InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
+        InvokeRepeating("SpawnRandomObstacle", startDelay, repeatRate);
 
     }
 
@@ -22,11 +22,8 @@ public class SpawnManager : MonoBehaviour
     void Update()
     {
 
-<<<<<<< Updated upstream
+      //  Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
     }
-=======
-   
->>>>>>> Stashed changes
 
 
     void SpawnRandomObstacle()
