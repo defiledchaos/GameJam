@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
 
-    private int score = 0;
+    public static int score = 0;
 
     public GameObject[] jellyPieces;
 
@@ -25,12 +25,13 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        AddScore();
+
     }
 
     public void AddScore()
     {
-        score++;
+        
         if (score >= winNumber)
         {
             Win();

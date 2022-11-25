@@ -766,7 +766,7 @@ GameObject:
   - component: {fileID: 646569542}
   - component: {fileID: 646569541}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Replay
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -790,8 +790,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 0.000015259, y: -206}
+  m_SizeDelta: {x: 247.04, y: 69.507}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &646569541
 MonoBehaviour:
@@ -1638,7 +1638,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2b47121479214fcd8586417573432e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstaclePrefab: {fileID: 0}
+  obstaclePrefab:
+  - {fileID: 3727937995486461810, guid: 2a51bc568b8188f45a659ca1c34c1745, type: 3}
+  - {fileID: 2882207152222310524, guid: 0bbf30d176cc78f49a4aa8efb0a83bba, type: 3}
+  - {fileID: 6125461757619180877, guid: 2d2fa335bbcc3834780780d54bc8b134, type: 3}
+  - {fileID: 8559390346467077094, guid: 9fdc458474c6abe4182745cded0fee10, type: 3}
+  - {fileID: 2921402319543654186, guid: 0c7caa82be8a6724dadbd47764f755c6, type: 3}
+  - {fileID: 3109725806859905274, guid: eb58cb5726c50fd49a377d974a826340, type: 3}
 --- !u!1 &1138920643
 GameObject:
   m_ObjectHideFlags: 0
@@ -1675,8 +1681,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 0.0000076294, y: 0.0000038147}
+  m_SizeDelta: {x: 385.50098, y: 88.117}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1138920645
 MonoBehaviour:
@@ -1776,7 +1782,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: -36.882156, y: 0, z: -162.28171, w: -45.312424}
+  m_margin: {x: -0.03604137, y: 0, z: 0.34956354, w: -0.8428193}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -2002,7 +2008,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Button
+  m_text: Replay
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -2011,8 +2017,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4281479730
-  m_fontColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+    rgba: 4294473727
+  m_fontColor: {r: 1, g: 0.4669811, b: 0.972892, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2029,13 +2035,13 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
-  m_fontStyle: 0
+  m_fontStyle: 3
   m_HorizontalAlignment: 2
   m_VerticalAlignment: 512
   m_textAlignment: 65535
