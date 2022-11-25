@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        jellyPieces = GameObject.FindGameObjectsWithTag("JellyPiece");
+        jellyPieces = GameObject.FindGameObjectsWithTag("JellyPieces");
     }
 
     // Update is called once per frame
@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
     public void AddScore()
     {
         score++;
-        if (score >= jellyPieces.Length);
+        if (score >= jellyPieces.Length)
         {
             Win();
         }
