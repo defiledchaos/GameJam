@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3109725806859905269}
   - component: {fileID: 3109725806859905268}
   - component: {fileID: 3109725806859905275}
+  - component: {fileID: 3830895336134722757}
   m_Layer: 0
   m_Name: Jelly_5
   m_TagString: Untagged
@@ -123,3 +124,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3830895336134722757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3109725806859905274}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7efc4349541424ee0a9dcab3bab75487, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
