@@ -22,7 +22,11 @@ public class SpawnManager : MonoBehaviour
     void Update()
     {
 
+<<<<<<< Updated upstream
     }
+=======
+   
+>>>>>>> Stashed changes
 
 
     void SpawnRandomObstacle()
