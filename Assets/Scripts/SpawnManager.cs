@@ -15,18 +15,20 @@ public class SpawnManager : MonoBehaviour
     void Start()
     {
         InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
-    void SpawnObstacle()
-    {
-        Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
-    }
 
+    void SpawnRandomObstacle()
+    { //spawn from top
+        int obstacleIndex = Random.Range(0, obstaclePrefab.Length);
+
+        Instantiate(obstaclePrefab[obstacleIndex], spawnPos, obstaclePrefab[obstacleIndex].transform.rotation);
+    }
 }
