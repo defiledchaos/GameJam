@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         jellyPieces = GameObject.FindGameObjectsWithTag("JellyPieces");
+        winText.SetActive(false);
+        replayButton.SetActive(false);
     }
 
     // Update is called once per frame
@@ -35,7 +37,7 @@ public class GameManager : MonoBehaviour
         if (score >= winNumber)
         {
             Win();
-            Debug.Log("Score: ")
+            
         }
     }
 
