@@ -429,6 +429,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2d2fa335bbcc3834780780d54bc8b134, type: 3}
+--- !u!1 &396427081 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3727937995486461810, guid: 2a51bc568b8188f45a659ca1c34c1745, type: 3}
+  m_PrefabInstance: {fileID: 164725994}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &791295492
 GameObject:
   m_ObjectHideFlags: 0
@@ -873,6 +878,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1 &1191798779 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6125461757619180877, guid: 2d2fa335bbcc3834780780d54bc8b134, type: 3}
+  m_PrefabInstance: {fileID: 307029342}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1369846271 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8559390346467077094, guid: 9fdc458474c6abe4182745cded0fee10, type: 3}
+  m_PrefabInstance: {fileID: 80605230}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1580845004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1326,7 +1341,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1857779346}
-  - component: {fileID: 1857779345}
+  - component: {fileID: 1857779347}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -1334,21 +1349,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1857779345
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1857779344}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dec19d72c7bec42db9fec012d96ec7f3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  jellyPieces: []
-  winText: {fileID: 0}
-  replayButton: {fileID: 0}
 --- !u!4 &1857779346
 Transform:
   m_ObjectHideFlags: 0
@@ -1364,6 +1364,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1857779347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1857779344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec19d72c7bec42db9fec012d96ec7f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  jellyPieces:
+  - {fileID: 396427081}
+  - {fileID: 1191798779}
+  - {fileID: 1369846271}
+  winText: {fileID: 0}
+  replayButton: {fileID: 0}
 --- !u!1 &1901684588
 GameObject:
   m_ObjectHideFlags: 0
