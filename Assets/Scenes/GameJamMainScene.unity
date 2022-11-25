@@ -1172,7 +1172,7 @@ MonoBehaviour:
   - {fileID: 3109725806859905274, guid: eb58cb5726c50fd49a377d974a826340, type: 3}
   winText: {fileID: 1138920643}
   replayButton: {fileID: 646569539}
-  winNumber: 1
+  winNumber: 15
 --- !u!4 &811179100
 Transform:
   m_ObjectHideFlags: 0

@@ -49,6 +49,6 @@ public class GameManager : MonoBehaviour
 
     public void Replay()
     {
-        SceneManager.LoadScene("GameScene");
+        SceneManager.LoadScene("GameJamMainScene");
     }
 }
