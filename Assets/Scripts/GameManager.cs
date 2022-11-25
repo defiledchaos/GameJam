@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
         if (score >= winNumber)
         {
             Win();
+            Debug.Log("Score: ")
         }
     }
 
