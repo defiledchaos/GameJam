@@ -14,6 +14,8 @@ public class GameManager : MonoBehaviour
 
     public GameObject replayButton;
 
+    public int winNumber = 2;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,7 +31,7 @@ public class GameManager : MonoBehaviour
     public void AddScore()
     {
         score++;
-        if (score >= jellyPieces.Length)
+        if (score >= winNumber)
         {
             Win();
         }
